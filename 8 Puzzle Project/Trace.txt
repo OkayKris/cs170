@@ -1,0 +1,63 @@
+Enter the first row, use a space of tabs between the numbers
+1 0 3
+Enter the second row, use a space of tabs between the numbers
+4 2 6
+Enter the third row, use a space of tabs between the numbers
+7 5 8
+
+Puzzle has been set to:
+1 0 3
+4 2 6
+7 5 8
+
+Enter your choice of algorithm:
+(1) Uniform Cost Search
+(2) A* With Misplaced Heuristic
+(3) A* With Euclidean Distance Heuristic
+3
+Expanding state:
+The best state to expand with a g(n) = 1 and h(n) = 2 is:
+1 2 3
+4 0 6
+7 5 8
+
+The best state to expand with a g(n) = 2 and h(n) = 1.41421 is:
+1 2 3
+4 5 6
+7 0 8
+
+The best state to expand with a g(n) = 3 and h(n) = 0 is:
+1 2 3
+4 5 6
+7 8 0
+
+Goal!!!
+To solve this problem, the search algorithm expanded a total of 7 nodes.
+The maximum nodes in the queue at any one time was 5.
+The total depth of this problem was 3.
+
+Showing trace of final path:
+Final size : 4
+Started from :
+1 0 3
+4 2 6
+7 5 8
+
+Expanded 1:
+1 2 3
+4 0 6
+7 5 8
+
+Expanded 2:
+1 2 3
+4 5 6
+7 0 8
+
+Expanded 3:
+1 2 3
+4 5 6
+7 8 0
+
+Finished
+
+The runtime of this problem was: 0.028000 seconds.
